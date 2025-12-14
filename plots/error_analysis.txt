@@ -1,0 +1,45 @@
+=== CLASSIFICATION REPORT ===
+                                  precision    recall  f1-score   support
+
+         Achaemenid architecture       1.00      1.00      1.00       400
+American Foursquare architecture       0.99      1.00      0.99       433
+        American craftsman style       0.97      0.99      0.98       425
+   Ancient Egyptian architecture       1.00      1.00      1.00       475
+           Art Deco architecture       1.00      1.00      1.00       682
+        Art Nouveau architecture       1.00      1.00      1.00       746
+            Baroque architecture       0.99      0.98      0.98       686
+            Bauhaus architecture       0.99      0.99      0.99       364
+         Beaux-Arts architecture       1.00      1.00      1.00       482
+                       Brutalism       1.00      0.98      0.99       195
+          Byzantine architecture       0.96      0.99      0.97       368
+     Chicago school architecture       1.00      0.99      1.00       318
+           Colonial architecture       1.00      0.99      0.99       430
+                Deconstructivism       1.00      0.98      0.99       189
+          Edwardian architecture       1.00      1.00      1.00       314
+           Georgian architecture       0.99      0.99      0.99       413
+             Gothic architecture       0.99      0.98      0.98       429
+      Greek Revival architecture       1.00      1.00      1.00       658
+             International style       0.98      1.00      0.99       494
+          Palladian architecture       0.98      0.99      0.99       409
+         Postmodern architecture       0.99      0.99      0.99       379
+         Queen Anne architecture       1.00      0.99      0.99       833
+         Romanesque architecture       0.98      0.98      0.98       358
+    Russian Revival architecture       0.97      0.96      0.97       374
+      Tudor Revival architecture       0.99      0.99      0.99       520
+
+                        accuracy                           0.99     11374
+                       macro avg       0.99      0.99      0.99     11374
+                    weighted avg       0.99      0.99      0.99     11374
+
+
+=== En Çok Karıştırılan İlk 10 Sınıf Çifti ===
+Gerçek: Russian Revival architecture  -> Tahmin: Byzantine architecture    Adet:   12  Oran:  3.21%
+Gerçek: Gothic architecture        -> Tahmin: Romanesque architecture   Adet:    6  Oran:  1.40%
+Gerçek: Postmodern architecture    -> Tahmin: International style       Adet:    5  Oran:  1.32%
+Gerçek: Byzantine architecture     -> Tahmin: Russian Revival architecture Adet:    4  Oran:  1.09%
+Gerçek: Deconstructivism           -> Tahmin: International style       Adet:    2  Oran:  1.06%
+Gerçek: Deconstructivism           -> Tahmin: Bauhaus architecture      Adet:    2  Oran:  1.06%
+Gerçek: Brutalism                  -> Tahmin: Bauhaus architecture      Adet:    2  Oran:  1.03%
+Gerçek: Baroque architecture       -> Tahmin: Russian Revival architecture Adet:    7  Oran:  1.02%
+Gerçek: Romanesque architecture    -> Tahmin: Gothic architecture       Adet:    3  Oran:  0.84%
+Gerçek: Romanesque architecture    -> Tahmin: Baroque architecture      Adet:    3  Oran:  0.84%
