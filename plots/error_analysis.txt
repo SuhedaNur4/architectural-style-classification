@@ -32,7 +32,7 @@ American Foursquare architecture       0.99      1.00      0.99       433
                     weighted avg       0.99      0.99      0.99     11374
 
 
-=== En Çok Karıştırılan İlk 10 Sınıf Çifti ===
+=== Top 10 Most Commonly Confused Classroom Pairs ===
 Gerçek: Russian Revival architecture  -> Tahmin: Byzantine architecture    Adet:   12  Oran:  3.21%
 Gerçek: Gothic architecture        -> Tahmin: Romanesque architecture   Adet:    6  Oran:  1.40%
 Gerçek: Postmodern architecture    -> Tahmin: International style       Adet:    5  Oran:  1.32%
